@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import Header from "./resource/Header.js";
+import Home from "./resource/Home.js";
+import "./App.scss";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>这是一个简单的开始</h1>
+        <Header/>
+
       </div>
     );
   }

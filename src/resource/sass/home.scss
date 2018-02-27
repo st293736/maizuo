@@ -1,0 +1,170 @@
+.box{
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y:auto;
+  .slider{
+    width: 100%;
+    height: 2.11rem;
+    .slider-con{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      Carousel{
+        width:1.88rem;
+        height: 100%;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  ul:nth-of-type(1){
+    width: 2.8rem;
+    flex:1;
+    li{
+      margin-top: 0.18rem;
+      width: 100%;
+      height:2.42rem;
+      >a{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        img{
+          display: inline-block;
+          width: 100%;
+          height: 1.92rem;
+          background: pink;
+        }
+        >span{
+          display:flex;
+          justify-content:space-between;
+          flex: 1;
+          width: 100%;
+          .left{
+            width: 2.25rem;
+            height: 100%;
+            background-color:yellow;
+          }
+          .right{
+            flex: 1;
+            height: 100%;
+            background-color: deepskyblue;
+          }
+        }
+      }
+    }
+  }
+  .MoreButton{
+    margin-top: 0.17rem;
+    width: 1.58rem;
+    height:0.28rem;
+    border-radius:1rem;
+    border: 0.01rem solid #aaaaaa;
+    margin-bottom: 0.3rem;
+    a{
+      display: inline-block;
+      width:100%;
+      height: 100%;
+      font-size: 0.12rem;
+      text-align: center;
+      line-height: 0.28rem;
+      color: #696969;
+      float: left;
+    }
+  }
+  .line{
+    width: 100%;
+    height: 0.2rem;
+    position: relative;
+    span:nth-of-type(1){
+      display: inline-block;
+      width: 100%;
+      border:0.01rem solid #a8a8a8;
+      float: left;
+    }
+    span:nth-of-type(2){
+      display: inline-block;
+      width: 0.65rem;
+      height: 0.2rem;
+      position: absolute;
+      left: 40%;
+      top: -0.1rem;
+      background-color: #a7a7a7;
+      font-size: 0.12rem;
+      text-align: center;
+      line-height: 0.2rem;
+      color: #eeeeee;
+      border-radius: 0.07rem;
+    }
+  }
+  ul:nth-of-type(2){
+    width: 2.8rem;
+    flex: 1;
+    margin-top: 0.32rem;
+    margin-bottom: 0.17rem;
+    li{
+      width: 100%;
+      height: 2.27rem;
+      background-color:blue;
+      margin-top: 0.16rem;
+      a{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        img{
+          display: inline-block;
+          width: 100%;
+          height: 1.92rem;
+          background-color: yellow;
+        }
+        >span{
+          display:flex;
+          width: 100%;
+          flex: 1;
+          justify-content: space-between;
+          .filmName{
+            height: 100%;
+            width:1.27rem;
+            padding-left: 0.26rem;
+            font-size: 0.12rem;
+            color: #333333;
+            line-height:0.35rem;
+          }
+          .time{
+            height: 100%;
+            flex:1;
+            background-color: greenyellow;
+            color: #f5a885;
+            text-align: center;
+            font-size: 0.12rem;
+            line-height: 0.35rem;
+          }
+        }
+      }
+    }
+  }
+  .MoreWill{
+    width:1.58rem;
+    height: 0.28rem;
+    border: 0.01rem solid #aaaaaa;
+    border-radius: 1rem;
+    margin-bottom: 0.29rem;
+    a{
+      display: block;
+      width: 100%;
+      height: 100%;
+      font-size: 0.12rem;
+      color: #696969;
+      text-align: center;
+      line-height: 0.28rem;
+    }
+  }
+}
