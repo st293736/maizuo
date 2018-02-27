@@ -34,21 +34,32 @@
         .box ul:nth-of-type(1) li > a img {
           display: inline-block;
           width: 100%;
-          height: 1.92rem;
-          background: pink; }
+          height: 1.92rem; }
         .box ul:nth-of-type(1) li > a > span {
           display: flex;
           justify-content: space-between;
           flex: 1;
-          width: 100%; }
-          .box ul:nth-of-type(1) li > a > span .left {
+          width: 100%;
+          background-color: white; }
+          .box ul:nth-of-type(1) li > a > span .leftone {
             width: 2.25rem;
-            height: 100%;
-            background-color: yellow; }
-          .box ul:nth-of-type(1) li > a > span .right {
+            height: 100%; }
+            .box ul:nth-of-type(1) li > a > span .leftone .viewName {
+              display: block;
+              color: #333333;
+              font-size: 0.12rem;
+              margin: 0.13rem 0 0.04rem 0.15rem; }
+            .box ul:nth-of-type(1) li > a > span .leftone .viewNum {
+              color: #9a9a9a;
+              font-size: 0.12rem;
+              margin-left: 0.15rem; }
+          .box ul:nth-of-type(1) li > a > span .rightone {
             flex: 1;
             height: 100%;
-            background-color: deepskyblue; }
+            text-align: center;
+            line-height: 0.5rem;
+            font-size: 0.14rem;
+            color: #f78360; }
   .box .MoreButton {
     margin-top: 0.17rem;
     width: 1.58rem;
@@ -95,7 +106,6 @@
     .box ul:nth-of-type(2) li {
       width: 100%;
       height: 2.27rem;
-      background-color: blue;
       margin-top: 0.16rem; }
       .box ul:nth-of-type(2) li a {
         display: flex;
@@ -106,13 +116,13 @@
         .box ul:nth-of-type(2) li a img {
           display: inline-block;
           width: 100%;
-          height: 1.92rem;
-          background-color: yellow; }
+          height: 1.92rem; }
         .box ul:nth-of-type(2) li a > span {
           display: flex;
           width: 100%;
           flex: 1;
-          justify-content: space-between; }
+          justify-content: space-between;
+          background-color: white; }
           .box ul:nth-of-type(2) li a > span .filmName {
             height: 100%;
             width: 1.27rem;
@@ -123,7 +133,6 @@
           .box ul:nth-of-type(2) li a > span .time {
             height: 100%;
             flex: 1;
-            background-color: greenyellow;
             color: #f5a885;
             text-align: center;
             font-size: 0.12rem;
