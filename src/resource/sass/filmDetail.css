@@ -1,0 +1,9 @@
+.FilmDetail {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=filmDetail.css.map */

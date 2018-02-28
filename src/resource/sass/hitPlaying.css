@@ -1,0 +1,70 @@
+.hitPlaying {
+  width: 2.8rem;
+  height: 100%;
+  margin: 0 auto; }
+  .hitPlaying ul {
+    width: 100%; }
+    .hitPlaying ul li {
+      width: 100%;
+      height: 1.24rem;
+      border-bottom: 0.01rem dashed #c9c9c9; }
+      .hitPlaying ul li .filmOne {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center; }
+        .hitPlaying ul li .filmOne img {
+          display: inline-block;
+          width: 0.6rem;
+          height: 0.83rem;
+          margin-right: 0.15rem; }
+        .hitPlaying ul li .filmOne i {
+          height: 0.83rem;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around; }
+          .hitPlaying ul li .filmOne i > span:nth-of-type(1) {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 0.32rem; }
+            .hitPlaying ul li .filmOne i > span:nth-of-type(1) .filmNm {
+              width: 1.5rem;
+              height: 100%;
+              font-size: 0.16rem;
+              line-height: 0.32rem;
+              color: #000; }
+            .hitPlaying ul li .filmOne i > span:nth-of-type(1) .grade {
+              flex: 1;
+              height: 100%;
+              text-align: center;
+              color: #fc7103;
+              line-height: 0.32rem; }
+          .hitPlaying ul li .filmOne i > span:nth-of-type(2) {
+            display: inline-block;
+            width: 100%;
+            height: 0.24rem;
+            font-size: 0.12rem;
+            color: #8e8e8e;
+            line-height: 0.24rem; }
+          .hitPlaying ul li .filmOne i > span:nth-of-type(3) {
+            flex: 1;
+            width: 100%;
+            display: flex;
+            justify-content: space-between; }
+            .hitPlaying ul li .filmOne i > span:nth-of-type(3) span:nth-of-type(1) {
+              color: #8e8e8e;
+              font-size: 0.12rem;
+              line-height: 0.24rem; }
+              .hitPlaying ul li .filmOne i > span:nth-of-type(3) span:nth-of-type(1) .number {
+                color: #8ba3bf; }
+            .hitPlaying ul li .filmOne i > span:nth-of-type(3) span:nth-of-type(2) {
+              color: #8e8e8e;
+              font-size: 0.12rem;
+              line-height: 0.24rem; }
+              .hitPlaying ul li .filmOne i > span:nth-of-type(3) span:nth-of-type(2) .customerNum {
+                color: #8ba3bf; }
+
+/*# sourceMappingURL=hitPlaying.css.map */

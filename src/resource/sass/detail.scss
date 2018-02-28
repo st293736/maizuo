@@ -19,13 +19,17 @@
       display:inline-block;
       width: 0.57rem;
       height: 100%;
-
       margin-left: 0.36rem;
       font-size: 0.12rem;
       color: #333333;
       margin-right: 0.08rem;
     }
     .authorName{
+      display: inline-block;
+      height: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
       color: #333333;
       font-size: 0.1rem;
     }

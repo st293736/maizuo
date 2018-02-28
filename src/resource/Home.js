@@ -25,7 +25,7 @@ class Home extends Component {
     componentDidMount(){
         axios.get('/v4/api/billboard/home?__t=1519650036211')
             .then((res)=> {
-                // console.log(res.data.data);
+                console.log(res.data.data.billboards);
                 this.setState({
                     slider:res.data.data.billboards
                 })

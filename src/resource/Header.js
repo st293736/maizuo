@@ -37,7 +37,7 @@ class Header extends  Component {
                 <div className="menu" ref="menu">
                     <ul>
                         <li><Link to="/home"><span>首页</span><span className="iconfont icon-jiantou"></span></Link></li>
-                        <li><a href="#"><span>影片</span><span className='iconfont icon-jiantou'></span></a></li>
+                        <li><Link to='/filmDetail/hitPlaying'><span>影片</span><span className='iconfont icon-jiantou'></span></Link></li>
                         <li><a href="#"><span>影院</span><span className='iconfont icon-jiantou'></span></a></li>
                         <li><a href="#"><span>商城</span><span className='iconfont icon-jiantou'></span></a></li>
                         <li><a href="#"><span>我的</span><span className='iconfont icon-jiantou'></span></a></li>

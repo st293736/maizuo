@@ -5,6 +5,7 @@ import "./App.scss";
 import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 import Detail from './resource/Detail.js';
 import Login from './resource/Login.js';
+import FilmDetail from './resource/FilmDetail.js';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
                 <Route path='/home' component={Home}/>
                 <Route path='/detail/:fid' component={Detail}/>
                 <Route path='/login' component={Login}/>
+                <Route path='/filmDetail' component={FilmDetail}/>
             </div>
         </Router>
     );

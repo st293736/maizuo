@@ -21,7 +21,6 @@ class Detail extends Component{
                 str =str + res.data.data.film.actors[i].name + " | ";
             }
             res.data.data.film.actors = str;
-            console.log(str);
             this.setState({
                 arr:this.state.arr
             })
