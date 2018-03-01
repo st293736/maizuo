@@ -14,7 +14,8 @@ class Login extends Component {
             $(".userHint").html("手机号或邮箱不能为空");
         }else{
             var rx = new RegExp();
-            rx = /^1[34578]\d{9}$/;
+            rx = /^(1[34578]\d{9}|\w+@[a-z0-9]+(\.[a-z]+){1,3})$/g;
+            // rx = /^\w+@[a-z0-9]+(\.[a-z]+){1,3}$/;
             var flag = rx.test($(".userAccounts").val());
             if(!flag){
                 $(".userHint").css("display","block");
