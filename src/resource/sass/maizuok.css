@@ -1,0 +1,47 @@
+.maizuok {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; }
+  .maizuok p {
+    width: 2.5rem;
+    height: 0.32rem;
+    border: 0.01rem solid #cccccc;
+    margin-top: 0.32rem;
+    display: flex;
+    justify-content: space-between; }
+    .maizuok p label {
+      width: 0.5rem;
+      height: 100%;
+      text-align: center;
+      line-height: 0.32rem;
+      font-size: 0.14rem;
+      color: #333333; }
+    .maizuok p input {
+      flex: 1;
+      font-size: 0.14rem;
+      color: #757575;
+      padding-left: 0.15rem;
+      background-color: transparent; }
+  .maizuok span {
+    display: none;
+    width: 2.5rem;
+    height: 0.14rem;
+    position: absolute;
+    top: 1.4rem;
+    color: #fe8233; }
+  .maizuok a {
+    display: inline-block;
+    width: 1.6rem;
+    height: 0.36rem;
+    background-color: #fe8233;
+    text-align: center;
+    line-height: 0.36rem;
+    color: white;
+    font-size: 0.14rem;
+    border-radius: 20px;
+    margin-top: 0.5rem; }
+
+/*# sourceMappingURL=maizuok.css.map */

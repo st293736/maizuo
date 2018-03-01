@@ -1,0 +1,24 @@
+.cinema {
+  wdith: 100%;
+  flex: 1;
+  overflow-y: auto; }
+  .cinema li {
+    width: 100%;
+    height: 0.4rem;
+    border-bottom: 0.01rem solid white; }
+    .cinema li p {
+      display: inline-block;
+      font-size: 0.14rem;
+      color: #636363;
+      line-height: 0.4rem;
+      padding-left: 0.16rem; }
+      .cinema li p ul {
+        width: 100%;
+        background-color: orange; }
+        .cinema li p ul li {
+          width: 100%;
+          height: 0.98rem;
+          background-color: white;
+          border-bottom: 0.01rem solid #e1e1e1; }
+
+/*# sourceMappingURL=cinema.css.map */

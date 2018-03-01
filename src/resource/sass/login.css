@@ -5,7 +5,9 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center; }
+    align-items: center;
+    justify-content: center;
+    position: relative; }
     .box-login div input {
       width: 2.09rem;
       padding-left: 0.11rem;
@@ -16,7 +18,28 @@
       margin: 0.35rem auto 0.38rem; }
     .box-login div input:nth-of-type(2) {
       margin: 0 auto 0.64rem; }
-    .box-login div a {
+    .box-login div a:nth-of-type(1) {
+      display: none;
+      width: 0.8rem;
+      height: 0.3rem;
+      background-color: #29a097;
+      position: absolute;
+      top: 0.35rem;
+      right: 0.49rem;
+      font-size: 0.12rem;
+      color: white;
+      text-align: center;
+      line-height: 0.3rem;
+      border-radius: 10px; }
+    .box-login div span {
+      display: none;
+      width: 2.22rem;
+      height: 0.14rem;
+      position: absolute;
+      top: 1.38rem;
+      line-height: 0.14rem;
+      color: #fe6e00; }
+    .box-login div a:nth-of-type(2) {
       display: inline-block;
       width: 1.63rem;
       height: 0.39rem;

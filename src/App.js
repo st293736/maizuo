@@ -6,6 +6,8 @@ import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 import Detail from './resource/Detail.js';
 import Login from './resource/Login.js';
 import FilmDetail from './resource/FilmDetail.js';
+import Cinema from './resource/Cinema';
+import Cart from './resource/Cart';
 
 class App extends Component {
   render() {
@@ -18,6 +20,8 @@ class App extends Component {
                 <Route path='/detail/:fid' component={Detail}/>
                 <Route path='/login' component={Login}/>
                 <Route path='/filmDetail' component={FilmDetail}/>
+                <Route path='/cinema' component={Cinema}/>
+                <Route path='/cart' component={Cart}/>
             </div>
         </Router>
     );

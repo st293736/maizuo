@@ -1,0 +1,23 @@
+.cart {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .cart p {
+    width: 100%;
+    height: 0.44rem;
+    border-bottom: 0.01rem solid #ff7100;
+    display: flex; }
+    .cart p .seat {
+      width: 50%;
+      height: 95%;
+      text-align: center;
+      line-height: 0.44rem;
+      font-size: 0.17rem;
+      color: #333333; }
+
+.selected {
+  border-bottom: 0.03rem solid #ff7100; }
+
+/*# sourceMappingURL=cart.css.map */
