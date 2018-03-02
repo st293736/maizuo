@@ -1,0 +1,60 @@
+.cinemaZone {
+  width: 100%;
+  flex: 1;
+  overflow-y: auto; }
+  .cinemaZone ul {
+    width: 100%; }
+    .cinemaZone ul li {
+      color: #636363;
+      font-size: 0.13rem;
+      line-height: 0.4rem;
+      border-bottom: 0.01rem solid white; }
+      .cinemaZone ul li > span {
+        display: inline-block;
+        width: 95%;
+        margin-left: 0.16rem; }
+      .cinemaZone ul li .cinema {
+        width: 100%;
+        height: 0.98rem;
+        border-bottom: 0.01rem solid #e1e1e1;
+        background-color: white;
+        display: none;
+        flex-direction: column;
+        align-items: center; }
+        .cinemaZone ul li .cinema p {
+          width: 2.9rem;
+          height: 0.19rem;
+          margin: 0.18rem 0 0.14rem;
+          display: flex;
+          justify-content: space-between; }
+          .cinemaZone ul li .cinema p .cinemaNm {
+            display: inline-block;
+            height: 100%;
+            font-size: 0.16rem;
+            color: #333333;
+            line-height: 0.19rem; }
+          .cinemaZone ul li .cinema p > span {
+            height: 100%;
+            line-height: 0.19rem; }
+        .cinemaZone ul li .cinema > span:nth-of-type(1) {
+          display: inline-block;
+          width: 2.9rem;
+          height: 0.12rem;
+          font-size: 0.12rem;
+          color: #cccccc;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          line-height: 0.12rem; }
+        .cinemaZone ul li .cinema > span:nth-of-type(2) {
+          display: inline-block;
+          width: 2.9rem;
+          height: 0.12rem;
+          margin-top: 0.1rem;
+          font-size: 0.12rem;
+          color: #cccccc;
+          line-height: 0.12rem; }
+      .cinemaZone ul li .active {
+        display: flex; }
+
+/*# sourceMappingURL=cinemaZone.css.map */

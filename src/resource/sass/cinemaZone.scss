@@ -1,0 +1,73 @@
+.cinemaZone{
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+  ul{
+    width: 100%;
+    li{
+      //width:3.59rem;
+      //height: 0.4rem;
+      color: #636363;
+      font-size:0.13rem;
+      line-height: 0.4rem;
+      //padding-left: 0.16rem;
+      border-bottom: 0.01rem solid white;
+      >span{
+        display: inline-block;
+        width:95%;
+        margin-left: 0.16rem;
+      }
+      .cinema {
+        width: 100%;
+        height: 0.98rem;
+        border-bottom: 0.01rem solid #e1e1e1;
+        background-color: white;
+        display:none;
+        flex-direction: column;
+        align-items: center;
+        p {
+          width: 2.9rem;
+          height: 0.19rem;
+          margin: 0.18rem 0 0.14rem;
+          display: flex;
+          justify-content: space-between;
+          .cinemaNm {
+            display:inline-block;
+            height: 100%;
+            font-size: 0.16rem;
+            color: #333333;
+            line-height: 0.19rem;
+          }
+          > span {
+            //flex: 1;
+            height: 100%;
+            line-height: 0.19rem;
+          }
+        }
+        > span:nth-of-type(1) {
+          display: inline-block;
+          width: 2.9rem;
+          height: 0.12rem;
+          font-size: 0.12rem;
+          color: #cccccc;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          line-height: 0.12rem;
+        }
+        > span:nth-of-type(2) {
+          display: inline-block;
+          width: 2.9rem;
+          height: 0.12rem;
+          margin-top: 0.1rem;
+          font-size: 0.12rem;
+          color: #cccccc;
+          line-height: 0.12rem;
+        }
+      }
+      .active{
+        display: flex;
+      }
+    }
+  }
+}

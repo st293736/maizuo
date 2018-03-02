@@ -8,6 +8,7 @@ import Login from './resource/Login.js';
 import FilmDetail from './resource/FilmDetail.js';
 import Cinema from './resource/Cinema';
 import Cart from './resource/Cart';
+import CinemaZone from './resource/CinemaZone';
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
                 <Route path='/filmDetail' component={FilmDetail}/>
                 <Route path='/cinema' component={Cinema}/>
                 <Route path='/cart' component={Cart}/>
+                <Route path='/cinemaZone' component={CinemaZone}/>
             </div>
         </Router>
     );
