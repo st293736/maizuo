@@ -1,0 +1,76 @@
+.selectCity {
+  width: 100%;
+  flex: 1;
+  background-color: #ebebeb;
+  overflow-y: auto;
+  /*>span:nth-of-type(2){
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #ebebeb;
+    margin-top: -1px;
+  }*/ }
+  .selectCity > span {
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #ebebeb;
+    margin-top: -1px; }
+  .selectCity .remen {
+    width: 100%;
+    height: 40px;
+    background-color: white; }
+    .selectCity .remen li {
+      width: 95px;
+      height: 100%; }
+      .selectCity .remen li a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 15px;
+        color: #e2941a;
+        line-height: 40px; }
+  .selectCity > ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: white; }
+    .selectCity > ul li {
+      width: 93px;
+      height: 100%; }
+      .selectCity > ul li a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        font-size: 15px;
+        color: #838383;
+        line-height: 40px; }
+  .selectCity div {
+    width: 100%; }
+    .selectCity div > span {
+      display: inline-block;
+      padding-left: 15px;
+      font-size: 14px;
+      line-height: 40px;
+      background-color: #ebebeb;
+      margin-top: -1px; }
+    .selectCity div > ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      background-color: white; }
+      .selectCity div > ul li {
+        width: 93px;
+        height: 100%; }
+        .selectCity div > ul li a {
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          font-size: 15px;
+          color: #838383;
+          line-height: 40px; }
+
+/*# sourceMappingURL=selectCity.css.map */

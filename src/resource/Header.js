@@ -30,7 +30,7 @@ class Header extends  Component {
                         <span className="titleName">卖座电影</span>
                     </div>
                     <div className='right'>
-                        <a href="">北京<span className="iconfont icon-jiantou"></span></a>
+                        <Link to='/selectCity'>北京<span className="iconfont icon-jiantou"></span></Link>
                         <Link to='/login' className="iconfont icon-icon-test"></Link>
                     </div>
                 </header>

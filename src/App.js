@@ -9,6 +9,7 @@ import FilmDetail from './resource/FilmDetail.js';
 import Cinema from './resource/Cinema';
 import Cart from './resource/Cart';
 import CinemaZone from './resource/CinemaZone';
+import SelectCity from './resource/SelectCity';
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
                 <Route path='/cinema' component={Cinema}/>
                 <Route path='/cart' component={Cart}/>
                 <Route path='/cinemaZone' component={CinemaZone}/>
+                <Route path='/selectCity' component={SelectCity}/>
             </div>
         </Router>
     );
