@@ -25,7 +25,7 @@ class Home extends Component {
     componentDidMount(){
         axios.get('/v4/api/billboard/home?__t=1519650036211')
             .then((res)=> {
-                console.log(res.data.data.billboards);
+                // console.log(res.data.data.billboards);
                 this.setState({
                     slider:res.data.data.billboards
                 })
@@ -43,7 +43,7 @@ class Home extends Component {
         })
         axios.get('/v4/api/film/coming-soon?__t=1519695361734&page=1&count=3')
             .then((res)=>{
-                console.log(res.data.data.films);
+                // console.log(res.data.data.films);
                 var time= "";
                 for(var i = 0;i < res.data.data.films.length;i ++){
                     var data = new Date(res.data.data.films[i].premiereAt);
@@ -51,7 +51,6 @@ class Home extends Component {
                     var day = data.getDay();
                     time = month + " 月 " + day + " 日 ";
                     res.data.data.films[i].premiereAt = time;
-                    console.log(res.data.data.films[i]);
                     this.setState({
                         willPlay:res.data.data.films
                     })
